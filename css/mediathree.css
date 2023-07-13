@@ -1,0 +1,69 @@
+@media only screen and (max-width: 1230px) {
+    .header {
+        width: 800px;
+    }
+    .title-box {
+        width: 800px;
+        justify-content: space-evenly;
+    }
+    .univer-card {
+        width: 350px;
+    }
+    .univer-card-big {
+        width: 735px;
+    }
+    .text-card {
+        width: 300px;
+        font-size: 20px;
+    }
+    .img-title {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .univer-card-big {
+        width: 340px;
+        height: 430px;
+    }
+    .header {
+        width: 350px;
+        height: 600px;
+    }
+    .sector-cards {
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 20px !important;
+    }
+    .univer-card {
+        width: 340px;
+        margin-bottom: 20px;
+    }
+    .text-card-big {
+        width: 300px;
+        padding-top: 40px;
+        text-align: left;
+        font-size: 20px;
+    }
+    .title-box {
+        width: 350px;
+    }
+    .title-kurs {
+        font-size: 15px;
+    }
+    .link-home {
+        width: 150px;
+        height: 50px;
+        font-size: 15px;
+    }
+    .body {
+        background-image: url(../assets/img/hrra.jpg);
+    }
+    .bog-box {
+        border-radius: 0px;
+    }
+    .card-text {
+        padding-top: 40px;
+    }
+}
